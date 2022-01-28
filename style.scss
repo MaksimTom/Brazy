@@ -49,6 +49,16 @@
 }
 
 @font-face {
+  font-family: 'DIN Pro';
+  src:
+    url('/fonts/DINPro-CondensedBold.woff2') format('woff2'),
+    url('/fonts/DINPro-CondensedBold.woff') format('woff'),
+    url('/fonts/DINPro-CondensedBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "FS Elliot Pro";
   src: url("fonts/FSElliotProHeavy.ttf");
   font-style: normal;
@@ -586,7 +596,7 @@ header {
       display: flex;
       font-family: "DIN Pro";
       font-style: normal;
-      font-weight: bold;
+      font-weight: 700;
       font-size: 22px;
       line-height: 26px;
       text-transform: uppercase;
